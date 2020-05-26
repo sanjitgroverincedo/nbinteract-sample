@@ -13257,8 +13257,7 @@ div#notebook {
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">nbinteract</span> <span class="k">as</span> <span class="nn">nbi</span>
-
-<span class="n">nbi</span><span class="o">.</span><span class="n">publish</span><span class="p">(</span><span class="s1">&#39;sanjitgroverincedo/nbinteract-sample/master&#39;</span><span class="p">,</span> <span class="s1">&#39;tutorial.ipynb&#39;</span><span class="p">)</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 </pre></div>
 
     </div>
@@ -13276,13 +13275,99 @@ div#notebook {
 
 
 
-<div id="e133c450-e7b4-4397-8cd5-ea3707e9bf08"></div>
+<div id="fc395e9f-a1ec-43c1-a887-55d208e47748"></div>
 <div class="output_subarea output_javascript ">
 <script type="text/javascript">
-var element = $('#e133c450-e7b4-4397-8cd5-ea3707e9bf08');
+var element = $('#fc395e9f-a1ec-43c1-a887-55d208e47748');
 IPython.notebook.save_checkpoint();
 </script>
 </div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+
+
+
+<div id="c35a025c-dc47-40a6-8c23-b2ddb30f3b0d"></div>
+<div class="output_subarea output_javascript ">
+<script type="text/javascript">
+var element = $('#c35a025c-dc47-40a6-8c23-b2ddb30f3b0d');
+IPython.notebook.save_notebook();
+</script>
+</div>
+
+</div>
+
+<div class="output_area">
+
+    
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Saving notebook... Saved &#39;tutorial.ipynb&#39;.
+Converting notebook...
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    
+
+
+<div class="output_markdown rendered_html output_subarea ">
+<p>Successfully converted!</p>
+<p><a href="tutorial.html" target="_blank" download>Click to download your webpage.</a></p>
+<p>To host your webpage, see the documentation:
+<a href="https://www.nbinteract.com/tutorial/tutorial_publishing.html"
+        target="_blank">
+    https://www.nbinteract.com/tutorial/tutorial_publishing.html
+</a></p>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+  </div>
+
+  
+
+  <div class="
+      cell border-box-sizing code_cell rendered">
+    <div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">cube</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">x</span> <span class="o">*</span> <span class="n">x</span> <span class="o">*</span> <span class="n">x</span><span class="p">;</span>
+<span class="n">interact</span><span class="p">(</span><span class="n">cube</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">10</span><span class="p">));</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    
+
+
+
+  <div class="output_subarea output_widget_view ">
+    <button class="js-nbinteract-widget">
+      Loading widgets...
+    </button>
+  </div>
 
 </div>
 
